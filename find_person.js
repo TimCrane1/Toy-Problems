@@ -6,7 +6,7 @@
 
 function findPerson (name, people) {
   var result = false;
-  for(var i = 0; i < people.length; i++){
+  for (var i = 0; i < people.length; i++) {
     if(people[i].name === name) {
       result = people[i].hobby;
     }
@@ -15,7 +15,7 @@ function findPerson (name, people) {
 }
 
 //////////recursively//////////
-function findPerson(name, people) {
+function findPerson (name, people) {
   if (people.length === 0) {
     return false;
   } else {

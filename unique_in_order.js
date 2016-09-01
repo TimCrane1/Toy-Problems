@@ -4,7 +4,7 @@
 //For example: uniqueInOrder('AAAABBBCCDAABBB') => ['A', 'B', 'C', 'D', 'A', 'B']
 
 //solution using a for loop
-function uniqueInOrder(iterable) {
+function uniqueInOrder (iterable) {
   if (!iterable.length) {
     return [];
   }
@@ -18,7 +18,7 @@ function uniqueInOrder(iterable) {
 }
 
 //solution using filter
-function uniqueInOrder(iterable) {
+function uniqueInOrder (iterable) {
   return Array.prototype.filter.call(iterable, function(prev, i){ return iterable[i - 1] !== prev});
 }
 

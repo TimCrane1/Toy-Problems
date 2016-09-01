@@ -5,7 +5,7 @@
 //The str parameter will not be empty and will have at least one letter.
 //For example: (++d+===+c++==a) => false, (++d+===+c++==+a+) => true
 
-function plusLetters(str) { 
+function plusLetters (str) { 
 
   for(var i = 0; i < str.length; i++){
     if(str[i].match(/[a-z]/i) !== null){
