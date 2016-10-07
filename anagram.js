@@ -5,7 +5,7 @@
 //For Example: "silent", "listen" => true; "torchwood", "doctor who" => true; "why?", "why not?" => false;
 
 function isAnagram (a, b) {
-	//get rid of spaces, check for length
+	//get rid of spaces, check for length using regular expression
   a = a.replace(/ /g, '');
   b = b.replace(/ /g, '');
   
