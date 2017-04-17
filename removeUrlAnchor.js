@@ -14,3 +14,9 @@ function removeUrlAnchor(url){
   }
   return result;
 }
+
+//Or using the split() method
+
+function removeUrlAnchor(url){
+  return url.split('#')[0];
+}
